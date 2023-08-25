@@ -15,7 +15,7 @@ endif()
 
 set(CMAKE_MODULE_PATH ${NDDSHOME}/resource/cmake)
 
-find_package(RTIConnextDDS EXACT "6.0.1" REQUIRED)
+find_package(RTIConnextDDS EXACT "6.1.1" REQUIRED)
 
 # for the OpenCV demo
 #find_package( OpenCV REQUIRED )

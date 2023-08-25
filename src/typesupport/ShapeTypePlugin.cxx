@@ -102,12 +102,12 @@ void ShapeFillKindPluginSupport_print_data(
 {
     if (description != NULL) {
         RTICdrType_printIndent(indent_level);
-        RTILog_debug("%s:\n", description);
+        // RTILog_debug("%s:\n", description);
     }
 
     if (sample == NULL) {
         RTICdrType_printIndent(indent_level+1);
-        RTILog_debug("NULL\n");
+        // RTILog_debug("NULL\n");
         return;
     }
 
